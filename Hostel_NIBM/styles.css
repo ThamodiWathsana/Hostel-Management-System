@@ -1,0 +1,65 @@
+.room h2{
+  text-align: center;
+  font-size: 50px;
+}
+
+.book-room{
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+.wrapper{
+    /display: flex;/
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background: rgba(39, 39, 39, 0.4);
+}
+
+.book-fill-info{
+  font-size: 19px;
+}
+
+.book-fill-info2{
+  font-size: 19px;
+}
+
+body{
+  background: url(sroom.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.book-fill-info1.error{
+  color: red;
+}
+
+.book-fill-info2.error{
+  color: red;
+}
+
+.book-fill-info3.error{
+  color: red;
+}
+
+.book-room .form-box{
+  text-align: center;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-size: 18px;
+}
+
+.book-room button{
+  font-weight: bold;
+    font-size: 1.3em;
+    background: black;
+  padding: 0.5em 1em;
+  margin-top: 20px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    background: linear-gradient(-90deg, rgb(85, 88, 90), rgb(168, 151, 119));
+  cursor: pointer;
+  margin-bottom: 30px;
+}
